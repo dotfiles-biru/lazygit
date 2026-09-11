@@ -1,7 +1,4 @@
-# ~/.config/lazygit/config.yml
-
 gui:
-  # UI
   filterMode: fuzzy
   nerdFontsVersion: "3"
   theme:
@@ -33,7 +30,6 @@ gui:
       - "#c8d0e0"
 
 git:
-  # Safer workflow
   disableForcePushing: true
 
   log:
@@ -41,6 +37,5 @@ git:
     showGraph: always
 
 os:
-  # Neovim
   edit: "nvim {{filename}}"
   editAtLine: "nvim +{{line}} {{filename}}"

@@ -1,1 +1,18 @@
+# ~/.config/lazygit/config.yml
 
+gui:
+  # UI
+  filterMode: fuzzy
+
+git:
+  # Safer workflow
+  disableForcePushing: true
+
+  log:
+    order: topo-order
+    showGraph: always
+
+os:
+  # Neovim
+  edit: 'nvim {{filename}}'
+  editAtLine: 'nvim +{{line}} {{filename}}'
